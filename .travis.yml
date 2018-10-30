@@ -12,3 +12,5 @@ notifications:
   email:
     - ean@ebmtech.com
     - kwan0913@gmail.com
+    on_success: never
+    on_failure: always
