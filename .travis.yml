@@ -7,3 +7,12 @@ dotnet: 2.1.300
 script:
     - dotnet restore IronmanDemo
     - dotnet build IronmanDemo
+
+webhooks:
+    urls:
+      - https://maker.ifttt.com/use/JvVLCSZkKI-SYVU5zS1WW
+    on_success: change # default: always
+    on_failure: always # default: always
+    on_start: change   # default: never
+    on_cancel: always # default: always
+    on_error: always # default: always
