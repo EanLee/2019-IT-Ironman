@@ -10,7 +10,7 @@ script:
 
 webhooks:
     urls:
-      - https://maker.ifttt.com/trigger/CI_Build_result/with/key/d_FUkcXQ68vfIv0-PUiVV8
+      - https://maker.ifttt.com/trigger/CI_Build_result/with/key/den2SL6fXRgg4MJUsAj27w
     on_success: change # default: always
     on_failure: always # default: always
     on_start: change   # default: never
