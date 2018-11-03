@@ -9,10 +9,11 @@ script:
     - dotnet build IronmanDemo
 
 webhooks:
+    - https://outlook.office.com/webhook/521eef9a-e7a6-467c-b81d-480a8d68cec9@ae28a5e7-6820-4c6b-ade7-f03f6073d5a6/TravisCI/369519f66f554addb7a1a08eb9e02c97/e0756390-7893-4bb6-8f49-9fa6d6334d46
+    on_success: always # default: always
     urls:
       - https://maker.ifttt.com/trigger/CI_Build_result/with/key/den2SL6fXRgg4MJUsAj27w      
-      - https://outlook.office.com/webhook/521eef9a-e7a6-467c-b81d-480a8d68cec9@ae28a5e7-6820-4c6b-ade7-f03f6073d5a6/TravisCI/369519f66f554addb7a1a08eb9e02c97/e0756390-7893-4bb6-8f49-9fa6d6334d46
-    on_success: always # default: always
+      
     on_failure: always # default: always
     on_start: change   # default: never
     on_cancel: always # default: always
