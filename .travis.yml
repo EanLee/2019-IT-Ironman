@@ -8,11 +8,3 @@ script:
     - dotnet restore IronmanDemo
     - dotnet build IronmanDemo
 
-notifications:
-  webhooks:
-  - https://outlook.office.com/webhook/521eef9a-e7a6-467c-b81d-480a8d68cec9@ae28a5e7-6820-4c6b-ade7-f03f6073d5a6/TravisCI/369519f66f554addb7a1a08eb9e02c97/e0756390-7893-4bb6-8f49-9fa6d6334d46
-  email:
-    - ean@ebmtech.com
-    - kwan0913@gmail.com
-    on_success: always
-    on_failure: always
