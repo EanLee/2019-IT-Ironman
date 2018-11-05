@@ -1,3 +1,7 @@
 IronmanDemo/obj 
 .vs/
 IronmanDemo/bin/
+Calculate.Tests/bin/
+Calculate.Tests/obj/
+CalculateTools/bin/
+CalculateTools/obj/
