@@ -4,6 +4,9 @@ solution: IronmanDemo.sln
 mono: none
 dotnet: 2.1.300
 
+install:
+ - nuget install  Microsoft.NET.Test.Sdk
+
 script:
     - dotnet restore
     - dotnet build
