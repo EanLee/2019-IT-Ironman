@@ -5,8 +5,8 @@ mono: none
 dotnet: 2.1.300
 
 script:
-    - dotnet restore IronmanDemo.sln
-    - dotnet build IronmanDemo.sln
+    - dotnet restore
+    - dotnet build
     - dotnet test Calculate.Tests\Calculate.Tests.csproj
 
 notifications:
