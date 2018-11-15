@@ -6,8 +6,9 @@ dotnet: 2.1.300
 
 script:
     - dotnet restore
-    - dotnet build
+    - dotnet build --configuration Release
     - dotnet test Calculate.Tests/Calculate.Tests.csproj
+    - ./dropbox_uploader.sh upload IronmanDemo/bin/Release /2019Ironman/Travis
 
 notifications:
   webhooks:
